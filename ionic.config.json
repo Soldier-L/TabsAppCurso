@@ -1,0 +1,7 @@
+{
+  "name": "TabsAppCurso",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
