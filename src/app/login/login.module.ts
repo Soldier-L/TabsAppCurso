@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { RamboPageRoutingModule } from './rambo-routing.module';
+import { LoginPageRoutingModule } from './login-routing.module';
 
-import { RamboPage } from './rambo.page';
+import { LoginPage } from './login.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    RamboPageRoutingModule
+    LoginPageRoutingModule
   ],
-  declarations: [RamboPage]
+  declarations: [LoginPage]
 })
-export class RamboPageModule {}
+export class LoginPageModule {}
